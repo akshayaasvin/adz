@@ -1,0 +1,94 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container to center content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* Services Section */
+#services {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0044cc;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* About Section */
+#about {
+    background-color: #e9ecef;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.8;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Footer Section */
+footer {
+    background-color: #0044cc;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
